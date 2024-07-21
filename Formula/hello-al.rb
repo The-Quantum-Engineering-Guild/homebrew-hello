@@ -11,7 +11,7 @@ class HelloAl < Formula
 
   def caveats
     <<~EOS
-      This formula (bottle by now?) only works with musl based proot-distro distros on termux
+      This formula (bottle by now?) only works with musl based proot-distro distros on termux, tested on Alpine linux.
     EOS
   end
 
