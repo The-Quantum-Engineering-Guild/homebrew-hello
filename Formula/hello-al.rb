@@ -7,7 +7,7 @@ class HelloAl < Formula
   head "https://github.com/The-Quantum-Engineering-Guild/homebrew-hello.git"
 
   def install
-    bin.install "hello-al"
+    bin.install "test-cpp-musl" => "hello-al"
   end
 
   def caveats
